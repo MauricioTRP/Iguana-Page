@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Raleway', 'Light';
+}
+nav{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+nav h1{
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Raleway','Light';
+    font-weight: 400;
+}
+.logo{
+    background-image: url(../bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    
+}
+section{
+    color: white;
+  
+}
+
+.contenedor img{
+    width: 25%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+.texto{
+    width: 40%;
+    font-family: 'Raleway';
+    text-align: left;
+    font-size: 19px;
+}
+article{
+    background-color: #1E1A13;
+    margin: 0;
+    
+}
+article h1{
+    padding-top: 4%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway', 'Light';
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.iconos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 80px;
+}
+.iconos div h3{
+    font-size: 29px;
+    font-family: 'Raleway','Light';
+}
+.mano{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.ojo{
+    text-align: center;
+}
+.pincel{
+    text-align: center;
+}
+.contenedor_tresimagenes{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+aside div img{
+    width: 500px;
+    height: 300px;
+}
+.verdes{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #1E1A13;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+footer p{
+    font-size: 24px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
